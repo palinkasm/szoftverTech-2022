@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// A programnak ez a része felelős, hogy a vidámprak látpgatói eltaláljanak az uticéljukhoz
+/// röviden: ez a kód szerkeszti a gráfot, amin reprezentálja a bejárható utat, és
+/// ez a kód is keresi a legrövidebb utat a gráfon belül.
+
 namespace ParkProject.Model
 {
     public class Edge
