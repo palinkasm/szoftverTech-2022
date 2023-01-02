@@ -2,6 +2,11 @@
 using ParkProject.Model.Objects;
 using ParkProject.Persistence;
 
+
+/// A program alapvetően a MVVM elven épült fel,
+/// és ez a File tartalmazza a Model részt
+
+
 namespace ParkProject.Model
 {
     public enum GameSpeed { Normal, Stop }
